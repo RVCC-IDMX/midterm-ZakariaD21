@@ -1,0 +1,164 @@
+/* Journey to the Center of the Earth Practicum */
+/*Zakaria Dandoune*/
+body{
+    background-image: linear-gradient(190deg,#765729,black);
+    background-attachment: fixed;
+    margin: 10px;
+}
+
+ header, nav, main, aside, footer{
+     margin: .25rem;
+     background-color: rgba(255, 255,255,.75);
+     box-shadow: 10px 10px 10px rgba(0, 0, 0,.5) inset;
+     border: 2px solid #886644;
+     padding: 1.25em; 
+ }
+
+ :lang(fr), :lang(is), :lang(it){
+
+    font-style: italic;
+
+ }
+
+  .character{
+      font-weight: bold;
+  }
+
+    h2{
+        border-bottom: 1px dashed black;
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: brown;
+        text-decoration: underline;
+    }
+    
+    header {
+        background-image: url(/cave.jpg);
+        text-align: center;
+        background-position: center;
+        background-size: 100%;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 20px 20px 20px black inset;
+        padding: 0px;
+    
+    }
+
+    header h1{
+        padding: 10px;
+        color: white;
+        font-family: georgia;
+        text-shadow: 5px 5px 5px black;
+    }
+
+    nav ul{
+        list-style: none;
+        margin-top: 0px;
+        margin-left: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    nav li{
+        display: inline;
+        margin-left: 0;
+        border-left: 3px double black;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+
+    nav li:first-child{
+        margin-left: 0;
+        border:none;
+        padding-left: 0;
+        padding-right: 1rem;
+    }
+
+
+    #cover{
+        width: 200px;
+        float: left;
+        margin-right: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    main p:first-of-type::first-line{
+        font-size: 130%;
+    }
+
+    .opinion{
+        text-align: center;
+    }
+
+    .signature{
+        text-align: right;
+        font-style: italic;
+    }
+
+    .submission{
+        background-color:rgba(255, 255, 255,.4);
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid black ;
+    }
+
+    footer{
+        text-align: center;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+/*
+main{
+    background-image:radial-gradient(antiquewhite,gray);
+}
+
+#cover{
+    padding: 0.5rem;
+    float: left;
+    max-width: 90%;
+    width: 200px;
+    height: auto;
+}
+
+#cryptogram{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+#cryptogram figcaption{
+    color: black;
+    font-style: italic;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+ul li span{
+    font-weight: bold;
+}
+
+
+
+main p span{
+    font-style: italic;
+}
+
+main p span.character{
+    font-weight: bold;
+}
+
+h2 div.opinion{
+    border: black;
+}
+*/
