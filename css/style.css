@@ -128,3 +128,51 @@ body{
     #cryptogram figcaption{
         font-style: italic;
     }
+
+
+    header h1{
+        font-size: 3rem;
+    }
+
+    aside{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    aside h2{
+        grid-column: 1/-1;
+
+    }
+
+    aside .signature{
+
+        text-align: center;
+    }
+
+    aside .opinion{
+        text-align: center;
+    }
+
+    
+
+
+/*
+
+ul li span{
+    font-weight: bold;
+}
+
+
+
+main p span{
+    font-style: italic;
+}
+
+main p span.character{
+    font-weight: bold;
+}
+
+h2 div.opinion{
+    border: black;
+}
+*/
