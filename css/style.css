@@ -2,30 +2,38 @@
 /*Zakaria Dandoune*/
 body{
     background-color: #765729;
+    background-attachment: fixed;
+    margin: 0;
 }
 
+ header, nav, main, aside, footer{
+     margin: .25rem;
+     background-color: rgba(255, 255,255,.75);
+     box-shadow: 10px 10px 10px rgba(0, 0, 0,.5) inset;
+     border: 2px solid #886644;
+     padding: 1.25em; 
+ }
+
 h1{
+    background-image: url("/cave.jpg");
+    background-size: cover;
     text-align: center;
     color: white;
     border: 2px solid #886644;
     padding: 2rem;
 }
-#nav,li{
-    display: inline;
-    justify-content: center;
-    padding: 1rem;
-}
-nav{
-    text-align: center;
-    border: 2px solid #886644 ;
-    background-image:radial-gradient(antiquewhite,gray);
-    padding: 1rem;
-}
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+
 main{
     background-image:radial-gradient(antiquewhite,gray);
 }
 
-#cover img{
+#cover{
     padding: 0.5rem;
     float: left;
     max-width: 90%;
@@ -47,17 +55,29 @@ main{
     text-align: center;
 }
 
-/*h2{
+h2{
+    font-size:2rem;
     border: none;
     border-bottom: 2px dotted black;
-}*/
+}
 
 ul li span{
     font-weight: bold;
 }
 
-ul li.character{
+/*.character{
     float: left;
     clear: left;
+}*/
+
+main p span{
+    font-style: italic;
 }
 
+main p span.character{
+    font-weight: bold;
+}
+
+h2 div.opinion{
+    border: black;
+}
