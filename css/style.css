@@ -116,49 +116,15 @@ body{
         border-bottom-left-radius: 20px;
     }
 
-/*
-main{
-    background-image:radial-gradient(antiquewhite,gray);
-}
+    #cryptogram{
+        text-align: center;
+    }
 
-#cover{
-    padding: 0.5rem;
-    float: left;
-    max-width: 90%;
-    width: 200px;
-    height: auto;
-}
+    #cryptogram img{
+        width: 80%;
+        max-width: 30rem;
+    }
 
-#cryptogram{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-
-}
-#cryptogram figcaption{
-    color: black;
-    font-style: italic;
-    padding: 1rem;
-    text-align: center;
-}
-
-
-ul li span{
-    font-weight: bold;
-}
-
-
-
-main p span{
-    font-style: italic;
-}
-
-main p span.character{
-    font-weight: bold;
-}
-
-h2 div.opinion{
-    border: black;
-}
-*/
+    #cryptogram figcaption{
+        font-style: italic;
+    }
